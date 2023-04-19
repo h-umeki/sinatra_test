@@ -6,9 +6,5 @@ get '/' do
 end
 
 get '/test' do
-    "<h2>Hello Worldtest!</h2><p>asdfghjk</p><a href='/new'>new</a>"
-end
-
-get '/new' do
-    "<h2>Hello New World!</h2><p>zxcvbnm</p><a href='/'>top</a>"
+    "<h2>Hello Worldtest!</h2><p>asdfghjk</p>"
 end
